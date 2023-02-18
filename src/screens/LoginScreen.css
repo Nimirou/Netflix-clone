@@ -72,8 +72,15 @@
   font-size: 1.3rem;
   font-weight: 400;
 }
+.loginScreen__input {
+  padding: 30px;
+}
 
 .loginScreen__input > form > input {
   padding: 10px;
   outline-width: 0;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
 }
