@@ -47,12 +47,14 @@
 .loginScreen__body {
   position: absolute;
   top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   z-index: 1;
   color: white;
   padding: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin: auto;
 }
 
 .loginScreen__body > h1 {
@@ -69,4 +71,9 @@
 .loginScreen__body > h3 {
   font-size: 1.3rem;
   font-weight: 400;
+}
+
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0;
 }
