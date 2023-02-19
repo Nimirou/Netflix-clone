@@ -18,6 +18,11 @@ function HomeScreen() {
       <Row title="TOP RATED" fetchUrl={requests.fetchTopRated}></Row>
       <Row title="ACTION MOVIES" fetchUrl={requests.fetchActionMovies}></Row>
       <Row title="COMEDY MOVIES" fetchUrl={requests.fetchComedyMovies}></Row>
+      <Row title="SPECIAL MOVIES" fetchUrl={requests.fetchActionMovies}></Row>
+      <Row
+        title="DAILY RECOMENDATION"
+        fetchUrl={requests.fetchComedyMovies}
+      ></Row>
     </div>
   );
 }
