@@ -15,7 +15,7 @@
 }
 
 .row__poster {
-  max-width: 100px;
+  max-width: 150px;
   object-fit: contain;
   margin-right: 10px;
   width: 100%;
