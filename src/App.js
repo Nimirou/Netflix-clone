@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
       <Router>
-        {user ? (
+        {!user ? (
           <LoginScreen></LoginScreen>
         ) : (
           <Routes>
