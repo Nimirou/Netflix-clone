@@ -10,7 +10,7 @@ function SignInScreen() {
         <input placeholder="Password" type="password"></input>
         <button type="submit">Sign In</button>
         <h4>
-          <span className="signupScreenGrey">New to NETFLIX?</span>{" "}
+          <span className="signupScreenGrey">New to NETFLIX? Just Sign Up</span>{" "}
           <span className="signupScreen__link">Sign Up now.</span>
         </h4>
       </form>
